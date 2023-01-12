@@ -1,4 +1,4 @@
-# Express.js-Note-Taker
+# Express-Note-Taker
 
 ## Description
 
@@ -19,7 +19,7 @@ This is an Express.js application that can be used to write and save notes.
 
 ## Usage
 
-TK<br><br>![Express.js Note Taker](./assets/Express.js-Note-Taker.png)<br><br>[Video: Express.js Note Taker Demo](TK)
+TK<br><br>![Express Note Taker](./assets/Express-Note-Taker.png)<br><br>[Video: Express Note Taker Demo](TK)
 
 ## License
 
