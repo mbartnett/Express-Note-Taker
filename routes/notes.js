@@ -1,11 +1,11 @@
 const notes = require('express').Router()
 const { v4: uuidv4 } = require('uuid')
 const { readAndAppend, readFromFile } = require('../helpers/fsUtils')
-// http://localhost:3001/api/notes/
+
 notes.get('/', (request, response) =>
     readFromFile('./db/db.json').then((data) => response.json(JSON.parse(data)))
 )
-// http://localhost:3001/api/notes/
+
 notes.post('/', (request, response) => {
     const { title, text } = request.body
 
@@ -17,9 +17,9 @@ notes.post('/', (request, response) => {
             id: uuidv4(),
         }
 
-        const response = readAndAppend(newNote, './db/db.json')
+        const info = readAndAppend(newNote, './db/db.json')
 
-        response.json(response)
+        response.json(info)
     } else {
         response.json('Error in posting note')
     }
