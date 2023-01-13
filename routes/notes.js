@@ -1,11 +1,17 @@
+// Variables
+
 const notes = require('express').Router()
 const { v4: uuidv4 } = require('uuid')
 const { readAndAppend, readFromFile } = require('../helpers/fsUtils')
 const fs = require('fs')
 
+// Get notes
+
 notes.get('/', (request, response) =>
     readFromFile('./db/db.json').then((data) => response.json(JSON.parse(data)))
 )
+
+// Post note
 
 notes.post('/', (request, response) => {
     const { title, text } = request.body
@@ -26,7 +32,7 @@ notes.post('/', (request, response) => {
     }
 })
 
-// Delete note in progress
+// Delete note 
 
 notes.delete('/:id', (request, response) => {
     const id = request.params.id
