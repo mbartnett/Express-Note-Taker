@@ -1,1 +1,27 @@
-[{"title":"Deploy App","text":"Deploy app on Heroku","id":"49729c93-c70d-48a7-8465-a4a6dad812e8"}]
+[
+    {
+        "title": "Call bank on Friday",
+        "text": "1-800-888-8888",
+        "id": "b392bc29-3966-4678-bc1d-051774f8db7a"
+    },
+    {
+        "title": "Reschedule delivery",
+        "text": "Call Warren to discuss details 512-555-5555",
+        "id": "c6e2ee49-502f-490a-81ed-1ffd819bcd98"
+    },
+    {
+        "title": "Finish payroll",
+        "text": "Distribute checks by end of week",
+        "id": "e16f041e-11c4-49ad-8b9c-5f6cc63ac2cf"
+    },
+    {
+        "title": "Check in with clients",
+        "text": "Address any unmet needs",
+        "id": "e9b823dc-765d-4f27-8530-a3be579bb078"
+    },
+    {
+        "title": "Client lunch on Thursday",
+        "text": "12:30pm at Eddie V's",
+        "id": "55e722b5-a48d-4b08-8d9f-a6f7feca5bb6"
+    }
+]
