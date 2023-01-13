@@ -4,7 +4,7 @@ const express = require('express')
 // Importing path module
 const path = require('path')
 
-// Importing  routes from the routes folder
+// Importing routes from the routes folder
 const api = require('./routes')
 
 // Setting port number, either from environment variable or default 3001

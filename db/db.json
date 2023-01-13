@@ -1,12 +1,1 @@
-[
-    {
-        "title": "Deploy App",
-        "text": "Deploy app on Heroku",
-        "id": "49729c93-c70d-48a7-8465-a4a6dad812e8"
-    },
-    {
-        "title": "Get 100",
-        "text": "Make a good grade on the assignment",
-        "id": "92d1e905-a910-46bd-a7b1-2b5e2d90b964"
-    }
-]
+[{"title":"Deploy App","text":"Deploy app on Heroku","id":"49729c93-c70d-48a7-8465-a4a6dad812e8"}]
