@@ -27,7 +27,7 @@ Click on the "get started" button to begin. Enter a note title and note text, an
 
 ## License
 
-Copyright © 2022, Michael Bartnett. Distributed under the [MIT](https://opensource.org/licenses/MIT) License.
+Copyright © 2022, Michael Bartnett, edX Boot Camps LLC. Distributed under the [MIT](https://opensource.org/licenses/MIT) License.<br>
 
 ## How to Contribute
 
