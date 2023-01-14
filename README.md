@@ -1,5 +1,7 @@
 # Express-Note-Taker
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 ## Description
 
 This application writes and saves notes, has an Express.js back end, and saves and retrieves note data from a JSON file.
@@ -19,6 +21,8 @@ This application writes and saves notes, has an Express.js back end, and saves a
 
 ## Usage
 
+Deployed application: [https://mbartnett-express-note-taker.herokuapp.com/](https://mbartnett-express-note-taker.herokuapp.com/)
+
 Click on the "get started" button to begin. Enter a note title and note text, and click the "save" icon to save your note. You may delete notes by clicking the"red "trash can" icon.
 
 ![Express Note Taker image 1](./public/assets/images/Express-Note-Taker.png)
@@ -35,7 +39,7 @@ If you have a suggestion that would make this application better, please fork th
 
 ## Tests
 
-After installing [Node.js](https://nodejs.org/en/) and [Express.js](https://expressjs.com/), test the application by typing "npm  start" in the command line while in the root directory. Once you receive the message "app listening at http://localhost:3001 🚀", type "http://localhost:3001" into your browser's address bar to access the application.
+In order to test the application, you must clone the repository. Install [Node.js](https://nodejs.org/en/) and [Express.js](https://expressjs.com/), and then test the application by typing "npm  start" in the command line while in the root directory. Once you receive the message "app listening at http://localhost:3001 🚀", type "http://localhost:3001" into your browser's address bar to access the application.
 
 ## Questions
 
