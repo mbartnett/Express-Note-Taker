@@ -17,7 +17,7 @@ This application writes and saves notes, has an Express.js back end, and saves a
 
 ## Installation
 
-[Node.js](https://nodejs.org/en/) and [Express.js](https://expressjs.com/) are required for this application. 
+[Node.js](https://nodejs.org/en/) and [Express.js](https://expressjs.com/) are required to interact with the back end of this application. 
 
 ## Usage
 
