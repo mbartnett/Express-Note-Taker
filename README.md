@@ -23,7 +23,7 @@ This application writes and saves notes, has an Express.js back end, and saves a
 
 Deployed application: [https://mbartnett-express-note-taker.herokuapp.com/](https://mbartnett-express-note-taker.herokuapp.com/)
 
-Click on the "get started" button to begin. Enter a note title and note text, and click the "save" icon to save your note. You may delete notes by clicking the"red "trash can" icon.
+Click on the "get started" button to begin. Enter a note title and note text, and click the "save" icon to save your note. You may delete notes by clicking the red "trash can" icon.
 
 ![Express Note Taker image 1](./public/assets/images/Express-Note-Taker.png)
 ![Express Note Taker image 2](./public/assets/images/Express-Note-Taker-1.png)
