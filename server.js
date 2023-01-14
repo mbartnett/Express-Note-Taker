@@ -1,6 +1,9 @@
 // Importing Express module
 const express = require('express')
 
+// Creates an express application
+const app = express()
+
 // Importing path module
 const path = require('path')
 
@@ -9,9 +12,6 @@ const api = require('./routes')
 
 // Setting port number, either from environment variable or default 3001
 const PORT = process.env.PORT || 3001
-
-// Creates an express application
-const app = express()
 
 // Using JSON middleware to handle JSON data in requests
 app.use(express.json())
