@@ -8,7 +8,7 @@ const path = require('path')
 const api = require('./routes')
 
 // Setting port number, either from environment variable or default 3001
-const PORT = process.env.port || 3001
+const PORT = process.env.PORT || 3001
 
 // Creates an express application
 const app = express()
